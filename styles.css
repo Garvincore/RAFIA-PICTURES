@@ -1,0 +1,232 @@
+ .container {
+            width: 80%; /* Set the desired width of your website */
+            margin: 0 auto; /* Set the left and right margins to auto to center the container */
+            /* Add other styling properties as needed */
+            color: #fff;/* Change the color (here, it's white) */
+            font-family: Arial, sans-serif; /* Change the font family */
+            font-size: 18px; /* Optionally, change the font size */
+        }
+        body {
+    /* Set the first background image */
+    background-image: url('button/view.jpg');
+    /* Set the second background image */
+    background: url('button/.jpg') center center fixed,
+                            url('button/.jpg') center center,
+                            url('button/view.jpg') center center;
+    /* Add other background properties as needed */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+}
+.container.nav-section{
+            font-size: 30px;
+            color: #fff;
+            position: center;
+            font-weight: bold;/* Optionally, change the font weight */
+}
+.about-img.flex img{
+    width= 200;
+    height= 200;
+}
+.container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.column {
+    flex: 1; /* Each column takes up equal space */
+    padding: 20px; /* Add padding for spacing */
+     /* Add border for visualization */
+}
+.container.stuff {
+    color: #fff;
+    position: center;
+}
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .image {
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            width: calc(25% - 20px); /* Adjust width for four images per row */
+        }
+        .image img {
+            max-width: 100%;
+            transition: transform 0.3s;
+        }
+        .image:hover {
+            transform: scale(1.1);
+        }
+        .preview-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s, opacity 0.5s linear;
+        }
+        .preview-container.active {
+            visibility: visible;
+            opacity: 1;
+        }
+        .preview-image {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: transparent;
+            border: none;
+            font-size: 24px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .like-btn {
+            background: #fff;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .comment-btn {
+            background: #fff;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .comment-box {
+            width: 80%;
+            max-width: 500px;
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+        .back-btn {
+            background: #fff;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+            .body {
+                        margin: 0;
+                        padding: 0;
+                        font-family: Arial, sans-serif;
+                }
+                .image-gallery {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-evenly;
+                        padding: 20px;
+                        box-sizing: border-box;
+                }
+                .image {
+                        margin: 10px;
+                        position: relative;
+                        overflow: hidden;
+                        cursor: pointer;
+                        width: calc(25% - 20px); /* Adjust width for four images per row */
+                }
+                .image img {
+                        max-width: 100%;
+                        transition: transform 0.3s;
+                }
+                .image:hover {
+                        transform: scale(1.1);
+                }
+                .preview-container {
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(0, 0, 0, 0.9);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        z-index: 999;
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: visibility 0s, opacity 0.5s linear;
+                }
+                .preview-container.active {
+                        visibility: visible;
+                        opacity: 1;
+                }
+                .preview-image {
+                        max-width: 100%;
+                        max-height: 100%;
+                }
+                .close-btn {
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                        background: transparent;
+                        border: none;
+                        font-size: 24px;
+                        color: #fff;
+                        cursor: pointer;
+                }
+                .like-btn {
+                        background: #fff;
+                        color: #333;
+                        border: none;
+                        padding: 10px 20px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        margin-bottom: 10px;
+                }
+                .comment-btn {
+                        background: #fff;
+                        color: #333;
+                        border: none;
+                        padding: 10px 20px;
+                        font-size: 16px;
+                        cursor: pointer;
+                }
+                .comment-box {
+                        width: 80%;
+                        max-width: 500px;
+                        margin-top: 20px;
+                        padding: 10px;
+                        border: 1px solid #fff;
+                        border-radius: 5px;
+                        background: rgba(255, 255, 255, 0.8);
+                }
+                .back-btn {
+                        background: #fff;
+                        color: #333;
+                        border: none;
+                        padding: 10px 20px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        margin-top: 20px;
+                }
